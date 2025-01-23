@@ -1,0 +1,16 @@
+{
+  "name": "rapidui",
+  "version": "1.0.0",
+  "description": "Un framework front-end personalizado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass scss/main.scss css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.83.4"
+  }
+}

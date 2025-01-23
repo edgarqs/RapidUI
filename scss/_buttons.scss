@@ -1,0 +1,65 @@
+// Importar variables
+@use 'variables' as *;
+
+// Estilo base de los botones
+.btn {
+    display: inline-block;
+    font-weight: $font-weight-normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: $spacer $spacer * 1.5;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    border-radius: 0.25rem;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        text-decoration: none;
+        opacity: 0.8;
+    }
+}
+
+// Botones primarios
+.btn-primary {
+    color: $light-color;
+    background-color: $primary-color;
+    border-color: $primary-color;
+}
+
+// Botones secundarios
+.btn-secondary {
+    color: $light-color;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+}
+
+// Botones de éxito
+.btn-success {
+    color: $light-color;
+    background-color: $success-color;
+    border-color: $success-color;
+}
+
+// Botones de peligro
+.btn-danger {
+    color: $light-color;
+    background-color: $danger-color;
+    border-color: $danger-color;
+}
+
+// Botones de advertencia
+.btn-warning {
+    color: $dark-color;
+    background-color: $warning-color;
+    border-color: $warning-color;
+}
+
+// Botones informativos
+.btn-info {
+    color: $light-color;
+    background-color: $info-color;
+    border-color: $info-color;
+}
